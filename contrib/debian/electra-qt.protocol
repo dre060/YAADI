@@ -1,0 +1,11 @@
+[Protocol]
+exec=yaadi-qt '%u'
+protocol=yaadi
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

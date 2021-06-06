@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=yaadi
+Comment=yaadi P2P Cryptocurrency
+Comment[fr]=yaadi, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=yaadi, eşten eşe kriptografik sanal para birimi
+Exec=yaadi-qt %u
+Terminal=false
+Type=Application
+Icon=bitcoin128
+MimeType=x-scheme-handler/yaadi;
+Categories=Office;Finance;

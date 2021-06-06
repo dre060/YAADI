@@ -1,0 +1,26 @@
+[Unit]
+Description=yaadi's distributed currency daemon
+After=network.target
+
+[Service]
+User=yaadi
+Group=yaadi
+
+Type=forking
+PIDFile=/var/lib/yaadid/yaadid.pid
+
+ExecStart=/usr/bin/yaadid -daemon -pid=/var/lib/yaadid/yaadid.pid \
+          -conf=/etc/yaadi/yaadi.conf -datadir=/var/lib/yaadid
+
+ExecStop=-/usr/bin/yaadi-cli -conf=/etc/yaadi/yaadi.conf \
+         -datadir=/var/lib/yaadid stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

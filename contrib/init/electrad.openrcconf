@@ -1,0 +1,26 @@
+# /etc/conf.d/yaadid: config file for /etc/init.d/yaadid
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/yaadi/yaadi.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/yaadid"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/yaadid.pid"
+
+# Where to write yaadid data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/yaadid"
+
+# User and group to own yaadid process
+#BITCOIND_USER="yaadi"
+#BITCOIND_GROUP="yaadi"
+
+# Path to yaadid executable
+#BITCOIND_BIN="/usr/bin/yaadid"
+
+# Nice value to run yaadid under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

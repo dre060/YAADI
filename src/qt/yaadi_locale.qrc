@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/yaadi_bg.qm</file>
+        <file alias="ca">locale/yaadi_ca.qm</file>
+        <file alias="cs">locale/yaadi_cs.qm</file>
+        <file alias="da">locale/yaadi_da.qm</file>
+        <file alias="de">locale/yaadi_de.qm</file>
+        <file alias="en">locale/yaadi_en.qm</file>
+        <file alias="en_US">locale/yaadi_en_US.qm</file>
+        <file alias="eo">locale/yaadi_eo.qm</file>
+        <file alias="es">locale/yaadi_es.qm</file>
+        <file alias="es_ES">locale/yaadi_es_ES.qm</file>
+        <file alias="fi">locale/yaadi_fi.qm</file>
+        <file alias="fr_FR">locale/yaadi_fr_FR.qm</file>
+        <file alias="hi_IN">locale/yaadi_hi_IN.qm</file>
+        <file alias="hr">locale/yaadi_hr.qm</file>
+        <file alias="hr_HR">locale/yaadi_hr_HR.qm</file>
+        <file alias="it">locale/yaadi_it.qm</file>
+        <file alias="ja">locale/yaadi_ja.qm</file>
+        <file alias="ko_KR">locale/yaadi_ko_KR.qm</file>
+        <file alias="lt_LT">locale/yaadi_lt_LT.qm</file>
+        <file alias="nl">locale/yaadi_nl.qm</file>
+        <file alias="pl">locale/yaadi_pl.qm</file>
+        <file alias="pt">locale/yaadi_pt.qm</file>
+        <file alias="pt_BR">locale/yaadi_pt_BR.qm</file>
+        <file alias="ro_RO">locale/yaadi_ro_RO.qm</file>
+        <file alias="ru">locale/yaadi_ru.qm</file>
+        <file alias="sk">locale/yaadi_sk.qm</file>
+        <file alias="sv">locale/yaadi_sv.qm</file>
+        <file alias="tr">locale/yaadi_tr.qm</file>
+        <file alias="uk">locale/yaadi_uk.qm</file>
+        <file alias="vi">locale/yaadi_vi.qm</file>
+        <file alias="zh_CN">locale/yaadi_zh_CN.qm</file>
+        <file alias="zh_TW">locale/yaadi_zh_TW.qm</file>
+    </qresource>
+</RCC>
